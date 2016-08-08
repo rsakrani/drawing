@@ -21,14 +21,3 @@ function draw() {
   if (myBlue <= 0) {
     myBlue=255;
   }
-}
-function bullseye(0, 50, 200, 4, Red, Green) {
-  noStroke();
-  fill(color1);
-  circle(x, y, d);
-  fill(color2);
-  circle(x, y, (2/3)*d);
-  fill(color3);
-  circle(x, y, (1/3)*d);
-}
-}
